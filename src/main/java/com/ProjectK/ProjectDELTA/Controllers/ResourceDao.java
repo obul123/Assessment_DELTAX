@@ -22,7 +22,7 @@ import io.swagger.v3.oas.annotations.Operation;
 @RestController
 public class ResourceDao {
 	
-	@Autowired
+	@Autowired  
 	ResourceOps resource;
 	
 	@Operation(summary = "Get All Movies",   description = " Get All Movies" , tags = "Movies")
