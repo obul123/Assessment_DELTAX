@@ -38,6 +38,7 @@ public class ResourceOps {
 			m.setMoviePlot(movie.getMoviePlot());
 			m.setMovie_DOB(movie.getMovie_DOB());
 			movierepo.save(m);
+			return movie;
 		}
 		return null;
 	}
